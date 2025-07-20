@@ -112,7 +112,7 @@ hr {
 }
 #more_features {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
   gap: 10px;
 }
 .button_f {
