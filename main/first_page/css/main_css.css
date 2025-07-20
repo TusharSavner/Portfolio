@@ -110,3 +110,25 @@ hr {
   transparent 100%);
   opacity: 0.1;
 }
+#more_features {
+  display: flex;
+  flex-direction: row;;
+  gap: 10px;
+}
+.button_f {
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: thin;
+    width: 245px;
+    color: white;
+    background-color: #333;
+    border: solid thin;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-color: white;
+}
+
+.button_f:hover {
+    background-color: lightgray;
+    color: #1a1a1a;
+}
